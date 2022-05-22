@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Macondo', cursive;
+}
+
+body{
+    background: url(../imgs/bg.png) no-repeat fixed;
+}
+
+html{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Box1{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 610px;
+}
+.img{
+    margin: 66px;
+    
+}
+
+.img img{
+    max-height: 300px !important;
+}
+.intro{
+    align-items: center;
+    margin: 200px 100px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    border: 4px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border: solid 8px black;
+}
+
+h3{
+    background-color: black;
+    color: white;
+    border-radius: 18px;
+    width: 40%;
+    height: fit-content;
+    text-align: center;
+}
+
+.social{
+    background-color: black;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    border-radius: 45px;
+}
+
+a{
+    margin: 6px;
+}
+
+.work{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+}
+.carosal{
+    width: 70%;
+}
+
+.skill{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+}
+
+.list{
+    font-size: 20px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    border-radius: 45px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
